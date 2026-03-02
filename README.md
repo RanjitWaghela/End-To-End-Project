@@ -1,141 +1,192 @@
-📊 Customer Trend Analysis Dashboard
+📊 Customer Trend Analysis
+End-to-End Data Analytics Project (Excel + SQL + Python + Power BI)
 📌 Project Overview
 
-This project focuses on analyzing customer shopping behavior to identify purchasing trends, seasonal patterns, and revenue growth opportunities.
-Using Excel for data cleaning, transformation, and visualization, the dashboard converts raw transactional data into actionable business insights.
+This project demonstrates a complete end-to-end data analytics workflow using Excel, SQL, Python, and Power BI to analyze customer shopping behavior and business performance trends.
 
-🎯 Business Objective
+The objective is to transform raw transactional data into actionable insights through data cleaning, querying, exploratory analysis, and interactive dashboard reporting.
 
-Identify purchasing trends over time
+🎯 Business Objectives
 
-Analyze revenue growth patterns
+Analyze customer purchasing trends
 
-Understand customer buying behavior
+Identify high-revenue products and categories
 
-Segment customers based on spending patterns
+Study seasonal sales patterns
 
-Support data-driven decision making
+Segment customers based on behavior
 
-📂 Dataset Information
+Improve business decision-making using data
 
-The dataset includes customer shopping behavior data such as:
+🛠 Tools & Technologies Used
+🗄 SQL
 
-Customer ID
+Data extraction
 
-Gender
+Aggregations & joins
 
-Age
+Revenue & KPI calculations
 
-Product Category
+Customer segmentation using CASE statements
 
-Item Purchased
+🐍 Python
 
-Purchase Amount
+Data cleaning & preprocessing
 
-Discount Applied
+Exploratory Data Analysis (EDA)
 
-Payment Method
+Statistical summaries
 
-Review Rating
+Data visualization (Matplotlib, Seaborn)
 
-Purchase Frequency
+📊 Excel
 
-Location
-
-Date / Time Information
-
-📊 Key KPIs
-
-👥 Total Customers
-
-💰 Total Revenue
-
-🛒 Total Orders
-
-📈 Average Order Value (AOV)
-
-⭐ Average Customer Rating
-
-🔄 Repeat Purchase Rate
-
-📈 Analysis Performed
-1️⃣ Sales Trend Analysis
-
-Monthly revenue trend
-
-Seasonal sales patterns
-
-Peak shopping periods
-
-2️⃣ Customer Segmentation
-
-Age group analysis
-
-Gender-based purchasing behavior
-
-High-value vs low-value customers
-
-3️⃣ Product Performance
-
-Top-selling categories
-
-Highest revenue-generating products
-
-Discount impact on sales
-
-4️⃣ Payment & Behavior Insights
-
-Most preferred payment methods
-
-Repeat purchase frequency
-
-Rating vs revenue relationship
-
-🛠 Tools & Techniques Used
-
-Microsoft Excel
-
-Power Query (Data Cleaning)
+Data validation
 
 Pivot Tables
 
-Pivot Charts
+KPI calculations
 
-KPI Cards
+Initial dashboard prototyping
 
-Conditional Formatting
+📈 Power BI
 
-Data Aggregation & Calculations
+Data modeling
+
+DAX measures
+
+Interactive dashboards
+
+Drill-through analysis
+
+Advanced visual storytelling
+
+🔄 Project Workflow
+1️⃣ Data Collection
+
+Imported raw customer shopping dataset
+
+2️⃣ Data Cleaning
+
+Handled missing values
+
+Removed duplicates
+
+Standardized formats
+
+Created calculated columns
+
+3️⃣ SQL Analysis
+
+Revenue by category
+
+Top-selling products
+
+Customer frequency analysis
+
+Seasonal revenue trends
+
+Payment method distribution
+
+4️⃣ Python EDA
+
+Descriptive statistics
+
+Correlation analysis
+
+Purchase distribution
+
+Age vs Spending patterns
+
+Discount impact analysis
+
+5️⃣ Excel Analysis
+
+KPI tracking
+
+Pivot-based summaries
+
+Business metric validation
+
+6️⃣ Power BI Dashboard
+
+Interactive filters & slicers
+
+Dynamic KPI cards
+
+Revenue trend analysis
+
+Customer segmentation visuals
+
+Profitability analysis
+
+📊 Key KPIs Tracked
+
+Total Revenue
+
+Total Orders
+
+Average Order Value
+
+Customer Lifetime Value
+
+Repeat Purchase Rate
+
+Seasonal Sales Growth
+
+Category-wise Revenue
 
 🔍 Key Insights
 
-✔ Certain product categories drive majority of revenue.
-✔ Discounted products increase order volume but reduce margin.
-✔ Younger age groups show higher purchase frequency.
-✔ Repeat customers contribute significantly to total revenue.
-✔ Digital payment methods dominate transactions.
+Certain product categories drive the majority of revenue.
 
-💡 Business Recommendations
+Repeat customers significantly increase profitability.
 
-Focus marketing campaigns on high-performing categories
+Seasonal patterns impact purchasing behavior.
 
-Implement loyalty programs for repeat customers
+Discounts increase order volume but reduce average order value.
 
-Optimize discount strategies to balance revenue and margin
+Subscription customers show higher purchase frequency.
 
-Target low-frequency customers with retention offers
+📂 Project Structure
+Customer-Trend-Analysis/
+│
+├── data/
+│   └── customer_shopping_behavior.csv
+│
+├── sql/
+│   └── analysis_queries.sql
+│
+├── python/
+│   └── eda_analysis.ipynb
+│
+├── excel/
+│   └── analysis_dashboard.xlsx
+│
+├── powerbi/
+│   └── dashboard.pbix
+│
+└── README.md
+📌 Skills Demonstrated
 
-🚀 Project Highlights
+End-to-End Data Analytics Workflow
 
-End-to-end data analytics workflow
+SQL Query Optimization
 
-Business-focused dashboard design
+Python EDA & Visualization
 
-Strong Excel & KPI modeling
+Data Cleaning & Transformation
 
-Real-world customer behavior analysis
+Business Intelligence Reporting
 
-👨‍💻 Author
+KPI Development
 
-Ranjit Waghela
-Aspiring Data Analyst | Excel | SQL | Power BI
+Data Storytelling
+
+Dashboard Design
+
+🚀 Conclusion
+
+This project showcases how multiple tools — SQL, Python, Excel, and Power BI — can be integrated into a complete analytics pipeline to extract business value from raw customer data.
+
+It reflects real-world data analyst responsibilities including data cleaning, querying, analysis, visualization, and strategic insight generation.
